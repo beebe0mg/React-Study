@@ -11,6 +11,7 @@ import List from "./pages/List";
 function App() {
   return (
     // html 에서는 class 하고 바로 작성하면 되지만 jsx 에서는 className 이라고 써 줘야 함
+    // 다른 것에 주의할 것!
     <div className="App">
       <nav>
       <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/counter">Counter</Link>  | <Link to="/input">Input</Link> | <Link to="/input2">Input2</Link> | <Link to="/list">List</Link>
